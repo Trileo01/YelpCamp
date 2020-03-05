@@ -18,7 +18,7 @@ mongoose.connect("mongodb+srv://Trileo:O@24wMZkuYtOUP90@yelpcamp-bbmsk.mongodb.n
     useUnifiedTopology: true
 });
  
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'Views'));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
     extended: true
