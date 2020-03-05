@@ -48,9 +48,9 @@ app.use("/campgrounds",camgroundRoutes);
 app.use("/campgrounds",commentRoutes);
 app.use("/",indexRoutes);
 
-app.listen(3000, () => {
-    console.log("YelpCamp has started on port 3000");
-});
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("The YelpCamp Server Has Started!");
+ });
 
 // Database UserName : Trileo 
 // Database Password : O@24wMZkuYtOUP90
