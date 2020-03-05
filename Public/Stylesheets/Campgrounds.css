@@ -1,0 +1,57 @@
+body {
+    font-family: Roboto;
+}
+
+i {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+}
+
+.navbar-nav {
+    letter-spacing: 0.25rem;
+    text-transform: uppercase;
+}
+
+.jumbotron-fluid {
+    font-size: 1.2rem;
+    background: url("https://images.unsplash.com/photo-1566545455366-bcae28fd3929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1356&q=80") center center / cover;
+}
+
+.row {
+    height: 390px;
+}
+
+.card {
+    height: 100%;
+    transition: all 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: 0 6px 20px 4px rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    justify-content: center;
+}
+
+.card-body h6 {
+    display: none;
+}
+
+.card-img-top {
+    height: 80%;
+}
+
+.card h4,h6 {
+    margin-bottom: 0;
+}
+
+.btn {
+    border-radius: 2rem;
+}
