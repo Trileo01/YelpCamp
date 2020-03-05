@@ -7,6 +7,7 @@ const express = require("express"),
     methodOverride = require("method-override"),
     LocalStrategy = require("passport-local"),
     User = require("./Models/UserModel");
+    path = require('path');
 
 const camgroundRoutes = require("./Routes/Campgrounds");
       commentRoutes = require("./Routes/Comments");
@@ -16,7 +17,7 @@ mongoose.connect("mongodb+srv://Trileo:O@24wMZkuYtOUP90@yelpcamp-bbmsk.mongodb.n
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
-
+ 
 app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
