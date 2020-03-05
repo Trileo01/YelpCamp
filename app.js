@@ -17,6 +17,7 @@ mongoose.connect("mongodb+srv://Trileo:O@24wMZkuYtOUP90@yelpcamp-bbmsk.mongodb.n
     useUnifiedTopology: true
 });
 
+app.set('views', path.join(__dirname, 'views'));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({
     extended: true
@@ -50,7 +51,6 @@ app.use("/",indexRoutes);
 
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The YelpCamp Server Has Started!");
- });
-
+});
 // Database UserName : Trileo 
 // Database Password : O@24wMZkuYtOUP90
