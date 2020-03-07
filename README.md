@@ -5,7 +5,7 @@ This project was created using Node.js, Express, MongoDB, and Bootstrap. Passpor
 
 ## Live Demo
 
-To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://yelpcamp--demo.herokuapp.com/)
+To see the app in action, go to [https://dry-spire-08318.herokuapp.com/]
 
 ## Features
 
@@ -32,12 +32,6 @@ To see the app in action, go to [https://yelpcamp--demo.herokuapp.com/](https://
   * Display campground location on Google Maps
   
   * Search existing campgrounds
-
-* Manage user account with basic functionalities:
-
-  * ~~Password reset via email confirmation~~ (disabled)
-
-  * Profile page setup with sign-up
 
 * Flash messages responding to users' interaction with the app
 
@@ -67,12 +61,6 @@ git clone https://github.com/lucasweng/yelp-camp.git
 
 ```sh
 npm install
-```
-
-or
-
-```sh
-yarn install
 ```
 
 ### Comments in code
