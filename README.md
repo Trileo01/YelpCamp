@@ -54,7 +54,7 @@ To see the app in action, go to [https://dry-spire-08318.herokuapp.com/]
 ### Clone or download this repository
 
 ```sh
-git clone https://github.com/lucasweng/yelp-camp.git
+https://github.com/Trileo01/YelpCamp.git
 ```
 
 ### Install dependencies
